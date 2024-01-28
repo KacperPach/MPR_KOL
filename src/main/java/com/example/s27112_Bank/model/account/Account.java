@@ -9,8 +9,7 @@ import lombok.Data;
 @Data
 public class Account {
     private Integer id;
-    private User user;
-    private Double amount;
+    private Double balance;
     private AccountCurrency currency;
-
+    private User user;
 }
